@@ -1,0 +1,85 @@
+The <script> Tag
+
+<p id="demo"></p>
+
+<script>
+document.getElementById("demo").innerHTML = "My First JavaScript";
+</script>
+
+
+example 2
+
+JavaScript in <head>
+
+    <script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Paragraph changed.";
+}
+</script>
+</head>
+<body>
+
+<h2>Demo JavaScript in Head</h2>
+
+<p id="demo">A Paragraph.</p>
+
+<button type="button" onclick="myFunction()">Try it</button>
+
+
+
+
+example 3
+Demo JavaScript in Body
+
+<p id="demo">A Paragraph.</p>
+
+<button type="button" onclick="myFunction()">Try it</button>
+
+<script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Paragraph changed.";
+}
+</script>
+
+
+
+example 4
+Demo External JavaScript
+
+<p id="demo">A Paragraph.</p>
+
+<button type="button" onclick="myFunction()">Try it</button>
+
+<p>This example links to "myScript.js".</p>
+<p>(myFunction is stored in "myScript.js")</p>
+
+<script src="myScript.js"></script>
+
+
+example 5
+External JavaScript
+
+<p id="demo">A Paragraph.</p>
+
+<button type="button" onclick="myFunction()">Click Me</button>
+
+<script src="https://www.w3schools.com/js/myScript.js"></script>
+
+
+example 6
+
+<p id="demo">A Paragraph.</p>
+
+<button type="button" onclick="myFunction()">Try it</button>
+
+<script src="/js/myScript.js"></script>
+
+
+
+example 7
+
+<p id="demo">A Paragraph.</p>
+
+<button type="button" onclick="myFunction()">Try it</button>
+
+<script src="myScript.js"></script>
